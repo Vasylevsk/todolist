@@ -1,0 +1,69 @@
+body {
+  background: #2d3436;
+  color: #ff7675;
+  font-family: "Righteous", cursive;
+}
+
+.one {
+  background: #2d3436;
+  padding: 50px 20px;
+  text-align: center;
+}
+.one h1 {
+  font-family: "Righteous", cursive;
+  position: relative;
+  color: #ff7675;
+  display: inline-block;
+  border-top: 2px solid;
+  border-bottom: 2px solid;
+  font-size: 3em;
+  padding: 11px 60px;
+  margin: 0;
+  line-height: 1;
+}
+
+.btn {
+  color: #084afe;
+  font-family: "Righteous", cursive;
+  border: 2px solid;
+  border-color: #084afe;
+}
+
+.inp {
+  color: #084afe;
+  font-family: "Righteous", cursive;
+  border: 2px solid;
+  border-color: #084afe;
+}
+
+.list {
+  padding: 0;
+  list-style: none;
+}
+.list li {
+  position: relative;
+  padding: 10px 30px;
+  background: white;
+  border: 2px solid #ff7675;
+  box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.2);
+  margin-bottom: 5px;
+  text-align: center;
+  background-size: 100% 100%;
+  z-index: 1;
+}
+
+.error {
+  color: red;
+}
+.invalid {
+  background-color: #ff7675;
+  color: blue;
+  font-family: "Righteous", cursive;
+  border: 2px solid;
+  border-color: red;
+}
+
+.active {
+  color: #127b08;
+  font-family: fantasy;
+}
